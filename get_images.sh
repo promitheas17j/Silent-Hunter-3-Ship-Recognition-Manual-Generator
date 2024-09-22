@@ -2,7 +2,7 @@
 # Set the source directory
 src_dir="YOUR /Silent Hunter 3/data/Sea/" # CHANGE THIS TO YOUR SILENT HUTNER 3 GAME DIRECTORY
 # Set the destination directory
-dest_dir="YOUR WORKING DIRECTROY /images" # CHANGE THIS TO YOUR WORKING DIRECTROY
+dest_dir="images"
 mkdir -p "$dest_dir"
 
 exclude_images=("ATug_sil.tga" "BuV_Dock1_sil.tga" "BuV_Dock2_sil.tga" "JunkM_sil.tga" "JunkS_sil.tga" "NDST_sil.tga" "NF_boat_1_sil.tga" "NF_boat_2_sil.tga" "NF_boat_3_sil.tga" "NF_boat_3L_sil.tga" "NF_boat_4_sil.tga" "NF_boat_5_sil.tga" "NF_boat_L_sil.tga" "NPTV_sil.tga" "SCHO__sil.tga" "Schute_M2_sil.tga" "Sloop__sil.tga")
