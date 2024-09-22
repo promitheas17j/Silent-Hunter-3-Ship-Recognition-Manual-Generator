@@ -13,6 +13,7 @@ chmod +x get_images.sh
 chmod +x get_ship_info.py
 chmod +x generate_latex_file.py
 ```
+<<<<<<< HEAD
 - Change the directory in ```get_images.sh``` to wherever your game is installed:
 
 ```src_dir="YOUR /Silent Hunter 3/data/Sea/" # CHANGE THIS TO YOUR SILENT HUTNER 3 GAME DIRECTORY```
@@ -22,6 +23,8 @@ chmod +x generate_latex_file.py
 
 ```sea_directory = "YOUR /Silent Hunter 3/data/Sea/" # CHANGE THIS TO YOUR SILENT HUTNER 3 GAME DIRECTORY```
 
+=======
+>>>>>>> 5cae1a91497880e0bcae92ce302b16caeb1a1621
 - First run ```get_images.sh```
 - Then run ```get_ship_info.py```
 - Finally run ```generate_latex_file.py```
