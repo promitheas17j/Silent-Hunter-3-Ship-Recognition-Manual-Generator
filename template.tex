@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=1in,landscape]{geometry}
+\usepackage{graphicx}
+\usepackage[english]{datetime2}
+
+\begin{document}
+
+% Cover Page
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    \Huge
+    \textbf{Silent Hunter 3 Ship Recognition Manual}
+	\\
+    % \vspace{0.5cm}
+    \LARGE
+	Version 0.1
+    % \vspace{1.5cm}
+	\\
+    \textbf{Author: promitheas}
+    \vfill
+    \Large
+	\DTMsetdatestyle{iso}
+    Date: \today
+    \vspace{0.8cm}
+\end{titlepage}
+
+\newcommand{\shipinfo}[7]{
+	\begin{center}
+		\includegraphics[width=\textwidth,height=0.9\textheight,keepaspectratio]{#1} % Ship image
+		\vspace{10pt}
+		\\
+		\begingroup
+			\fontsize{14pt}{12pt}
+				\textbf{Ship Name:} #2 \quad
+				\textbf{ClassName:} #3 \quad
+				\textbf{MaxSpeed:} #4 kt \quad
+				\textbf{Length:} #5 m \quad
+				\textbf{Width:} #6 m \quad
+				\textbf{Mast:} #7 m \\
+		\endgroup
+	\end{center}
+	\newpage
+	}
+
+% Placeholder for ship information
+% INSERT SHIP INFO HERE
+
+\end{document}
+
