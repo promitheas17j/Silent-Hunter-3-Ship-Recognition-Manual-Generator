@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository has been migrated to https://codeberg.org/promitheas/Silent-Hunter-3-Ship-Recognition-Manual-Generator
+
 # Requirements
 ----
 - Silent Hunter 3 with the GWX mod installed
